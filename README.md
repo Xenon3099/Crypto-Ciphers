@@ -1,9 +1,9 @@
-# Crypto-Ciphers
-Application of different ciphers
-Additive Cipher 
-Multiplicative Cipher (Work in progress) 
-Affine Cipher (Work in progress) 
-Autokey Cipher (Work in progress) 
-Playfair Cipher (Future Scope) 
-Vignere Cipher (Futue Scope) 
-Hill Cipher (Futue Scope) 
+## Crypto-Ciphers
+1) Application of different ciphers
+2) Additive Cipher 
+3) Multiplicative Cipher (Work in progress) 
+4) Affine Cipher (Work in progress) 
+5) Autokey Cipher (Work in progress) 
+6) Playfair Cipher (Future Scope) 
+7) Vignere Cipher (Futue Scope) 
+8) Hill Cipher (Futue Scope) 
