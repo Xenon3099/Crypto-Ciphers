@@ -1,5 +1,6 @@
 from Additive import AddCipher
 while True:
+    print "Main Menu"
     print "1. Encrypt"
     print "2. Decrypt"
     print "3. Exit"
@@ -19,4 +20,5 @@ while True:
         print "Decrypted using ",x.name," Cipher"
         print "The decrypted string is : ",plain
     elif ch==3:
-        break()
+        break
+    print
