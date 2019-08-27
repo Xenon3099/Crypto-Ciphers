@@ -3,6 +3,7 @@ class AddCipher():
         self.plaintext=""
         self.ciphertext=""
         self.key=0
+        self.name="Additive"
     def encrypt(self,plain,key):
         self.key=key
         self.ciphertext=""
