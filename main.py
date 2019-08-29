@@ -38,7 +38,7 @@ def Multiplicative():
                 break
             else:
                 print "Please enter correct key"
-        x=MultiCipher()
+        x=Multicipher()
         cipher=x.encrypt(plain,key)
         print "Encrypted using ",x.name," Cipher"
         print "The encrypted string is : ",cipher
@@ -50,7 +50,7 @@ def Multiplicative():
                 break
             else:
                 print "Please enter correct key"
-        x=MultiCipher()
+        x=Multicipher()
         plain=x.decrypt(cipher,key)
         print "Decrypted using ",x.name," Cipher"
         print "The decrypted string is : ",plain
