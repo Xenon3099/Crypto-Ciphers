@@ -1,4 +1,4 @@
-class MultiCipher():
+class Multicipher():
     def __init__(self):
         self.plaintext=""
         self.ciphertext=""
