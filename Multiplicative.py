@@ -25,9 +25,9 @@ class Multicipher():
             self.chara=chr((((ord(i)-65)*self.modInverse(self.key,26))%26)+65)
             self.plaintext=self.plaintext+self.chara
         return self.plaintext
-    def modInverse(self,num ,mod) : 
-        num=num%mod; 
-        for i in range(1, mod) : 
-            if ((num*i)%mod==1) : 
+    def modInverse(self,num,mod): 
+        num=num%mod
+        for i in range(1,mod): 
+            if ((num*i)%mod==1): 
                 return i
         return 1
